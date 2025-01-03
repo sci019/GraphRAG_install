@@ -36,6 +36,22 @@ echo 'server.default_listen_address=0.0.0.0' >> /etc/neo4j/neo4j.conf
 ```
 
 
+# 実行方法
+```shell
+sudo su
+neo4j console &
+ollama serve & ollama_PID=$!
+
+source ragenv/bin/activate
+python create_graph.py
+python graph_rag.py
+
+#最後に不要なプロセス削除
+kill $ollama_PID ; neo4j stop
+```
+
+# neo4jのDB操作
+
 DBの検索・削除
 ```SQL
 MATCH (n) RETURN n
