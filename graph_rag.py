@@ -178,7 +178,7 @@ def main():
     https://sandeep14.medium.com/running-graphrag-locally-with-neo4j-and-ollama-text-format-371bf88b14b7
     """
     data_path = "./data/data.txt"
-    model_name = "llama3.1:8b-instruct-q8_0"
+    model_name = "llama3"
     
     graph_rag = GraphRAG(model_name)
     user_question = "エンジニア職の給料が100万円の場合、suzukiの給料は？"
