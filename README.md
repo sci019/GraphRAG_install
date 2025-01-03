@@ -5,6 +5,8 @@ ollamaインストール
 curl -fsSL https://ollama.com/install.sh | sh
 sudo systemctl stop ollama
 sudo systemctl disable ollama
+ollama serve & ollama_PID=$!
+ollama pull llama3 ; kill $ollama_PID
 ```
 
 Pythonライブラリ
