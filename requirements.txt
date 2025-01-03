@@ -1,0 +1,8 @@
+# pip install -r requirements.txt.txt
+neo4j
+langchain-experimental
+langchain
+langchain-community
+langchain_ollama
+tiktoken
+json-repair

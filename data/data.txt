@@ -1,0 +1,23 @@
+Project XXX is being conducted jointly by Team AAA and Team BBB.
+
+Team AAA consists of two members, yagihasi, nagumo, and hayata.
+
+Team BBB consists of two members, takahasi and suzuki.
+
+Yagihasi's job title is designer.
+
+nagumo's job title is designer.
+
+Hayata's job title is engineer.
+
+takahasi's job title is marketer.
+
+Suzuki's job title is sales.
+
+The person responsible for Project XXX is named kanzaki.
+
+kanzaki pays salaries to members of Team AAA and Team BBB.
+
+engineer has the twice more salary than sales has.
+
+marketer has the twice more salary than designer has.
