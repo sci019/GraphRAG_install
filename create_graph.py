@@ -68,7 +68,7 @@ def main():
     https://qiita.com/ksonoda/items/98a6607f31d0bbb237ef
     """
     data_path = "./data/data.txt"
-    model_name = "llama3.1:8b-instruct-q8_0"
+    model_name = "llama3"
     
     graph_creater = GraphCreater()
     documents = graph_creater.load_data(data_path)
