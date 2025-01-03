@@ -1,7 +1,5 @@
 # 導入方法
-```
-wsl Ubuntu 24.04.1 LTS
-```
+* wsl Ubuntu 24.04.1 LTS
 
 ## ollamaインストール
 ```shell
